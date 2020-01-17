@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style['heroImage']" />
+  <div :class="[$style.heroImage]" />
 </template>
 <script>
 export default {
