@@ -66,7 +66,7 @@ export default {
         this.loading = false;
         this.step = 1;
       }).catch((err) => {
-        console.log(err);
+        throw err;
       });
     }, 500),
   },
