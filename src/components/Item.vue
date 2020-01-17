@@ -22,9 +22,9 @@ export default {
       return `background-image: url("${this.photo}")`;
     },
   },
-  mounted() {
-    console.log(this.item);
-  },
+  // mounted() {
+  //   console.log(this.item);
+  // },
 };
 </script>
 <style module lang="scss">
